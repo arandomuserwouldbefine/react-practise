@@ -1,0 +1,12 @@
+.aboutDiv{
+    display: flex;
+    margin-top: 20px;
+}
+
+.personImage{
+    width: 50%;
+}
+
+.aboutusPara{
+    font-size: 20px;
+}

@@ -1,16 +1,26 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Route, Routes } from "react-router-dom";
+
 import './App.css'
+import Home from './Routing/Pages/home';
+import Navbar from './Routing/Components/navbar';
+
+import About from './Routing/Pages/about';
+import Contact from './Routing/Pages/contact';
+import Counter from './Routing/Components/counter'; // Corrected import name
 
 function App() {
   const [count, setCount] = useState(0)
-
   return (
     <>
-      <h5>Counter :{count}</h5>
-      <button onClick={()=>setCount(count+1)}>Click</button>
+      {/* <Counter />  */}
+      {/* <Navbar />
 
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes> */}
     </>
   )
 }
