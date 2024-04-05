@@ -1,0 +1,24 @@
+// styles.scss
+
+// Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+// Nesting and styling
+.dummy-container {
+  background-color: lighten($primary-color, 20%);
+  border: 1px solid $secondary-color;
+  padding: 20px;
+  margin: 20px;
+
+  .dummy-title {
+    color: $primary-color;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .dummy-text {
+    color: $secondary-color;
+    font-size: 16px;
+  }
+}

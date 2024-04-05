@@ -8,12 +8,14 @@ import Navbar from './Routing/Components/navbar';
 import About from './Routing/Pages/about';
 import Contact from './Routing/Pages/contact';
 import Counter from './Routing/Components/counter'; // Corrected import name
+import DummyComponent from './Routing/Components/sasscom';
 
 function App() {
   const [count, setCount] = useState(0)
   return (
     <>
       {/* <Counter />  */}
+      <DummyComponent />
       {/* <Navbar />
 
       <Routes>
