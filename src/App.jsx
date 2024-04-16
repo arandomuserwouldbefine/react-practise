@@ -9,24 +9,22 @@ import About from './Routing/Pages/about';
 import Contact from './Routing/Pages/contact';
 import Counter from './Routing/Components/counter'; // Corrected import name
 import DummyComponent from './Routing/Components/sasscom';
-import LifecycleExample from './LifeCycle/classBased';
-import FunctionLifecycleExample from './LifeCycle/functionBased';
 
 function App() {
   const [count, setCount] = useState(0)
   return (
     <>
       {/* <Counter />  */}
-      {/* <DummyComponent /> */}
-      {/* <LifecycleExample /> */}
-      {/* <FunctionLifecycleExample /> */}
+      <DummyComponent />
       {/* <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path='/mui' element={<MuiComponents />} />
+        <Route path='/rb' element={<ReactBoostrap />} />
+        {/* <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes> */}
+        <Route path="/contact" element={<Contact />} /> */}
+      </Routes> 
     </>
   )
 }
